@@ -1,13 +1,76 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App{
+  position: absolute;
+  left:20%;
+  background-color: rgb(4, 147, 147);
+  width: 50%;
+  height: 70%;
+}
+body{
+  background-color: #020631;
+}
+.textBox{
+  width: 100%;
+  padding-top: 20px;
+}
+.textBox input{
+  width: 70%;
+  margin-left: 5%;
+  font-size: 10px;
+}
+.listitem{
+  position: absolute;
+  top: 55px;
+  align-items: center;
+}
+.list {
+  color :black;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.list p{
+  background-color: aliceblue;
+  margin-left: 10px;
+  border-radius: 5px;
+
+}
+.completedtask {
+  position: absolute;
+  top: 300px;
+}
+.completed {
+  color :black;
+  width: 80%;
+  margin-left: 5%;
+  background-color: aliceblue;
+  font-size: 20px;
+}
+.submit{
+  background-color: blue;
+  margin-left: 8px;
+  border: none;
+  width: 10%;
+  height: 30px;
+  color: aliceblue;
+}
+.edit{
+  background-color: blue;
+  padding: 5px;
+  margin: 8px;
+  border: none;
+  color: aliceblue;
+  border-radius: 6px;
+}
+.delete{
+  background-color: red;
+  padding: 5px;
+  border: none;
+  color: aliceblue;
+  border-radius: 6px;
 }
